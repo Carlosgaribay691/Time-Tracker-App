@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { auth, db } from "../firebase";
-import "./TimeLog.css";
+import "./Timelog.css";
 import {
   collection,
   addDoc,
