@@ -19,7 +19,7 @@ export default function Login() {
   };
 
   return (
-    <div>
+    <div style= {{color: 'white'}}>
       <h2>Iniciar sesión</h2>
       <form onSubmit={handleLogin}>
         <input

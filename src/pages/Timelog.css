@@ -1,6 +1,6 @@
 /* Fondo general */
 body {
-  background-color: #45b2b2; /* Cambia este color si deseas */
+  background-color: #aefbfb; /* Cambia este color si deseas */
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -10,7 +10,7 @@ body {
 .container {
   min-height: 100vh;
   padding: 2rem;
-  background-color: #578cc2; /* O usa otro color de fondo */
+  background-color: #8ff3d7; /* O usa otro color de fondo */
 }
 
 /* Opcional: puedes dar estilo a botones */
