@@ -8,12 +8,13 @@ function App() {
   return (
     <div
       style={{
-        height: '100vh',               // altura pantalla completa
-       width: '100vw',                // ancho pantalla completa
-       backgroundImage: "url('/Pinkfloyd.png')",
-       backgroundSize: 'cover',
-       backgroundPosition: 'center',
-       backgroundRepeat: 'no-repeat'
+        backgroundImage: "url('/Pinkfloyd.png')",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+        backgroundPosition: "center",
+        minHeight: "100vh",
+        width: "100vw",
       }}
     >
       <Routes>
@@ -26,5 +27,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
