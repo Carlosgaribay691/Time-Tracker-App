@@ -8,11 +8,12 @@ function App() {
   return (
     <div
       style={{
-        backgroundImage: "url('/Pinkfloyd.png')",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
-        minHeight: "100vh",
+        height: '100vh',               // altura pantalla completa
+       width: '100vw',                // ancho pantalla completa
+       backgroundImage: "url('/Pinkfloyd.png')",
+       backgroundSize: 'cover',
+       backgroundPosition: 'center',
+       backgroundRepeat: 'no-repeat'
       }}
     >
       <Routes>
