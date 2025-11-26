@@ -10,7 +10,7 @@ import {
   parseISO, startOfDay, endOfDay, startOfWeek, endOfWeek,
   startOfMonth, endOfMonth, isWithinInterval
 } from "date-fns";
-import { FaSignInAlt, FaUtensils, FaClock, FaSignOutAlt, FaCalendarAlt, FaEdit } from "react-icons/fa";
+import { FaSignInAlt, FaUtensils, FaClock, FaSignOutAlt, FaCalendarAlt, FaEdit } from "react-icons/fa6";
 
 export default function TimeLog() {
   const [user, setUser] = useState(null);
